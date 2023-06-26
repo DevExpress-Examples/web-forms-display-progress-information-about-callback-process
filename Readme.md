@@ -41,10 +41,10 @@ To avoid this issue, you can [disable the Session](https://learn.microsoft.com/e
 
 Note that when the Session state is disabled, it is no longer possible to use Session variables. The states below can be used as alternatives:
 - Application state that stores variables that can be accessed by all users of an ASP.NET application.
-- Profile properties that persists user values in a data store without expiring them.
+- Profile properties that persist user values in a data store without expiring them.
 - ASP.NET caching that stores values in memory available to all ASP.NET applications.
 - Cookies.
-- Query string and fields on an HTML form that are available from an HTTP request.
+- Query string that is available from an HTTP request.
 
 
 ## Files to Review
