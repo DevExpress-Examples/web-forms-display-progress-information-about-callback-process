@@ -9,17 +9,17 @@
 **[[Run Online]](https://codecentral.devexpress.com/e918/)**
 <!-- run online end -->
 
-This example illustrates how you can inform your users about a server-side process when an operation initiated via a callback request takes much time.
+This example illustrates how you can inform your users about a server-side process when an operation initiated by a callback request takes too much time.
 
 ![](image.png)
 
 In this example, a callback panel sends a request to the server and performs a long server process. 
 
-Another callback panel sends a callback to the server every timer tick. On the server, a callback event handler gets the current operation progress and return this value to the client.
+Another callback panel sends a callback to the server every timer tick. On the server, a callback event handler gets the current operation progress and returns this value to the client.
 
 ## How to perform parallel callbacks
 
-This approach does not work if the Session state is used. The Session state blocks parallel execution and forces parallel requests to be executed one after another because the access to ASP.NET Session state is exclusive per session. 
+This approach does not work if the Session state is used. The Session state blocks parallel execution and forces parallel requests to be executed one after another because the access to the ASP.NET Session state is exclusive per session. 
 
 To avoid this issue, you can [disable the Session](https://learn.microsoft.com/en-US/troubleshoot/developer/webapps/aspnet/development/disable-asp-session-state) state in the following ways:
 
@@ -42,7 +42,7 @@ To avoid this issue, you can [disable the Session](https://learn.microsoft.com/e
 Note that when the Session state is disabled, it is no longer possible to use Session variables. The states below can be used as alternatives:
 - Application state that stores variables that can be accessed by all users of an ASP.NET application.
 - Profile properties that persists user values in a data store without expiring them.
-- ASP.NET caching that stores values in memory that is available to all ASP.NET applications.
+- ASP.NET caching that stores values in memory available to all ASP.NET applications.
 - Cookies.
 - Query string and fields on an HTML form that are available from an HTTP request.
 
