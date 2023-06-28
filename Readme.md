@@ -49,8 +49,8 @@ Note that when the Session state is disabled, it is no longer possible to use Se
 
 ## Files to Review
 
-* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
-* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
+* [Default.aspx](./CS/WebSite/Default.aspx)
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs)
 
 ## Documentation 
 
