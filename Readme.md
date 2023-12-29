@@ -5,9 +5,6 @@
 <!-- default badges end -->
 
 # ASP.NET Web Forms - How to display progress information about server-side callback processing
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128564204/)**
-<!-- run online end -->
 
 This example illustrates how you can inform your users about a server-side process when an operation initiated by a callback request takes too much time.
 
