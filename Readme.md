@@ -62,7 +62,7 @@ Note that when the Session state is disabled, it is no longer possible to use Se
 * [How to track progress of server side processing on the client side (using HttpModule)](https://github.com/DevExpress-Examples/how-to-track-progress-of-server-side-processing-on-the-client-side-using-httpmodule-e4656)
 * [Progress Bar for ASP.NET Web Forms - How to use the WebMethod attribute to display the progress of a server-side process on the client](https://github.com/DevExpress-Examples/asp-net-web-forms-progress-bar-display-server-process-progress)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=web-forms-display-progress-information-about-callback-process&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=web-forms-display-progress-information-about-callback-process&~~~was_helpful=no)
 
